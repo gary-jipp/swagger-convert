@@ -9,6 +9,9 @@ https://swagger.io/tools/swaggerhub/
 ```
 # npm install
 # node main.js <filename1.json> <filename2.json> ...
+
+example:
+# node main.js example/example1.json
 ```
 Will create filename-v2.jason files in the same directory as the original file
 
