@@ -1,6 +1,6 @@
 
-const fs = require('fs');
 const Converter = require('api-spec-converter');
+const fs = require('fs');
 
 const convert = function (filename) {
   Converter.convert({
@@ -23,5 +23,4 @@ const args = process.argv.slice(2);
 for (filename of args) {
   console.log(filename);
   convert(filename);
-
 }
